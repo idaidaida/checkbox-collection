@@ -1,0 +1,19 @@
+.row
+    .col-3
+        .list-group
+            = link_to new_task_path,{class:"list-group-item list-group-item-action"} do
+                Regist new tasks
+    .col-9
+        .list-group
+            - @tasks.each do |task|
+                .list-group-item
+                    .task-content
+                        #{task.content}
+                    .task-tags
+                        .text-muted 
+                            - task.tags.each do |tag|
+                                #{tag.name} /
+                    %hr/
+                    .text-right
+                        = link_to "edit", edit_task_path(task),{class:"btn btn-primary"}
+                        = link_to "delete", task_path(task),{class:"btn btn-danger",method: :delete}
