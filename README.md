@@ -1,4 +1,4 @@
-# 練習問題
+# 練習問題(collection_check_boxes)
 Todoアプリを作りなさい。
 作成したTodoにはタグを付与できるようにしなさい。
 
