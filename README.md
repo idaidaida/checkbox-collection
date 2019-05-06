@@ -1,5 +1,6 @@
-# 概要
-checkboxのcollectionを使うサンプルコードを書いた
+# 練習問題
+Todoアプリを作りなさい。
+作成したTodoにはタグを付与できるようにしなさい。
 
-# 前提
-タグを持つTodoリスト
+# 学びたいこと
+collection_check_boxesを正しく使えるようになること
